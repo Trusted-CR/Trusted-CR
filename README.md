@@ -1,4 +1,4 @@
-# Trusted-CR Repository
+# Trusted-CR repository
 
 This repository contains all the code for the Trusted-CR implementation.
 
