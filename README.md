@@ -7,6 +7,20 @@ The migrator component is the trusted_cr binary that the user interacts with on 
 
 https://github.com/Trusted-CR/trusted_cr
 
+## Trusted-CR checkpointing & restoring component
+Trusted-CR uses a modified version of CRIU as checkpointing and restoring component. CRIU has been modified to supports executing a single system call and checkpointing a binary at the start.
+
+https://github.com/Trusted-CR/criu/tree/v3.15_trusted-cr
+
+## Trusted-CR secure execution component
+The secure execution component is responsible for restoring the checkpoint in the secure world and for migrating the updated state back to the normal world after execution finishes.
+
+https://github.com/Trusted-CR/optee_os/blob/trusted_cr/core/pta/trusted_cr.c
+
+## Modified OP-TEE
+OP-TEE has been modified to support checkpointing binaries running in S-EL0.
+
+https://github.com/Trusted-CR/optee_os/tree/trusted_cr
 
 ## Trusted-CR API
 The Trusted-CR API offers developers two functions:
