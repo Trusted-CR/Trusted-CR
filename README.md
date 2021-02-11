@@ -10,4 +10,5 @@ https://github.com/Trusted-CR/trusted_cr
 The Trusted-CR API offers developers two functions:
 - Function trusted_cr_migrate_to_sw: to migrate to the secure world
 - Function trusted_cr_migrate_back_to_nw: to migrate to the normal world
+
 https://github.com/Trusted-CR/migration_api
