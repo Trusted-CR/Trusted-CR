@@ -17,7 +17,7 @@ The secure execution component is responsible for restoring the checkpoint in th
 
 https://github.com/Trusted-CR/optee_os/blob/trusted_cr/core/pta/trusted_cr.c
 
-## Modified OP-TEE
+## Trusted-CR modified OP-TEE
 OP-TEE has been modified to support checkpointing binaries running in S-EL0.
 
 https://github.com/Trusted-CR/optee_os/tree/trusted_cr
@@ -28,3 +28,13 @@ The Trusted-CR API offers developers two functions:
 - Function trusted_cr_migrate_back_to_nw: to migrate to the normal world
 
 https://github.com/Trusted-CR/migration_api
+
+## Trusted-CR API modified nbench
+The modified version of nbench, with clock_gettime modified to run in Trusted-CR.
+
+https://github.com/Trusted-CR/nbench-byte-2.2.3
+
+## Trusted-CR API modified ccrypt
+The modified version of ccrypt, modified with the Trusted-CR API.
+
+https://github.com/Trusted-CR/ccrypt
