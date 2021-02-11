@@ -1,8 +1,10 @@
-### Hi there 👋
+# Trusted-CR Repository
 
+This repository contains all the code for the Trusted-CR implementation.
 
 ## Trusted-CR migrator component
 The migrator component is the trusted_cr binary that the user interacts with on the command line in the normal world. The migrator controls the other components and migrates the checkpoint data to the secure executor in the secure world via the TEE Client API.
+
 https://github.com/Trusted-CR/trusted_cr
 
 
